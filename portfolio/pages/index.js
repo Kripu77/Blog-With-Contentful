@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import imageC from '../images/imageC.jpg'
+// import imageC from '../images/imageC.jpg'
 import Footer from '../components/Footer';
 import bud from '../images/bud.avif';
 
@@ -18,14 +18,14 @@ export default function Home() {
         <h1 className={styles.navheader}>kripukhadka</h1>
       </nav>
       <main className={styles.main}>
-        <Image
+        {/* <Image
           src={imageC}
           width={399}
           height={374}
           placeholder="blur"
           className={styles.demoimage}
           alt="main image"
-        ></Image>
+        ></Image> */}
         <h1 className={styles.title}>Namaste, 👋 I am Kripu Khadka!</h1>
         <p className={styles.description}>
           I am a Data Analayst at{" "}
