@@ -62,14 +62,19 @@
   font-size: 4rem;
 }
 
-.title,
-.description {
+.title
+ {
   text-align: center;
+  margin-top: 1rem;
 }
 
+.slidingtext{
+  height: 0.1vh;
+  width: 10px;
+}
 .description {
   margin: 4rem 0;
-  line-height: 1.5;
+  line-height: 1;
   font-size: 1.5rem;
 }
 
@@ -156,5 +161,24 @@ font-family: 'PT Sans Narrow', sans-serif;
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .main{
+    text-align: center;
+  }
+  .description{
+    font-size: 3.2rem;
+    max-width: 400px;
+   
+  }
+  .description{
+    max-width: 500px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .navheader{
+    text-align: center;
+  }
+  .demoimage{
+   text-align: center;
   }
 }

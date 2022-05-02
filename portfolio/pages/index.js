@@ -1,15 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import imageC from "../images/imageC.jpg"
+import imageC from '../images/imageC.jpg'
 import Footer from '../components/Footer';
-import bud from "../images/bud.avif";
+import bud from '../images/bud.avif';
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Hi 👋 I'm Kripu Khadka</title>
+        <title>Hi 👋 I&apos;m Kripu Khadka</title>
         <meta name="description" content="Kripu Khadka" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -23,14 +24,14 @@ export default function Home() {
           height={374}
           placeholder="blur"
           className={styles.demoimage}
+          alt="main image"
         ></Image>
-        <h1 className={styles.title}>Hi, 👋 I am Kripu Khadka!</h1>
+        <h1 className={styles.title}>Namaste, 👋 I am Kripu Khadka!</h1>
         <p className={styles.description}>
-          I am a Data Analayst at{" "}
+          I am a Data Analayst at
           <a href="https://www.hungryjacks.com.au" className={styles.titlea}>
-            {" "}
-            Hungry Jack's® Pty Ltd
-          </a>{" "}
+            Hungry Jack&apos;s® Pty Ltd
+          </a>
           and I love working with JavaScript❤️.
         </p>
         <div className={styles.grid}>
@@ -39,22 +40,24 @@ export default function Home() {
               🎓BIT @<a href="https://kent.edu.au/"> Kent Institue Australia</a>{" "}
             </p>
             <p>
-              {" "}
               📍 Currently @
               <a href="https://www.sydney.com/"> Sydney, Australia </a>
             </p>
             <p>
-              {" "}
-              💻 Work. @{" "}
+              💻 Work. @
               <a href="https://www.hungryjacks.com.au">
-                {" "}
-                Hungry Jack's® Pty Ltd
-              </a>{" "}
+                Hungry Jack&apos;s® Pty Ltd
+              </a>
             </p>
             <p> 🌎 Speaks English, and Nepali.</p>
           </div>
           <div>
-            <Image src={bud} placeholder="blur" width={458} height={388}></Image>
+            <Image
+              src={bud}
+              placeholder="blur"
+              width={458}
+              height={388}
+            ></Image>
           </div>
           {/* 
           
