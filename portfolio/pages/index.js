@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-// import imageC from '../images/imageC.jpg'
 import Footer from '../components/Footer';
-import bud from '../images/bud.avif';
+
 
 
 export default function Home() {
@@ -54,8 +53,9 @@ export default function Home() {
           </div>
           <div>
             <Image
-              src={bud}
+              src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1651489646/bud_cfl4hs.avif"
               placeholder="blur"
+              blurDataURL="LH97Rt%e9tkC~ox@E2flt7j@RkWC"
               width={458}
               height={388}
             ></Image>
