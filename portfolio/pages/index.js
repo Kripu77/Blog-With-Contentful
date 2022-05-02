@@ -26,7 +26,7 @@ export default function Home() {
           className={styles.demoimage}
           alt="main image"
         ></Image> */}
-        <h1 className={styles.title}>Namaste, 👋 I am Kripu Khadka!</h1>
+        <h1 className={styles.title}>Namaste, 👋 I&apos;m Kripu Khadka!</h1>
         <p className={styles.description}>
           I am a Data Analayst at{" "}
           <a href="https://www.hungryjacks.com.au" className={styles.titlea}>

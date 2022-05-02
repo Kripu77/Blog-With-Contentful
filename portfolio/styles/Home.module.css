@@ -165,11 +165,12 @@ font-family: 'PT Sans Narrow', sans-serif;
   }
   .title{
     font-size: 2.3rem;
+    max-width: 80vw;
   }
  
   .description{
   
-    max-width: 300px;
+    max-width: 70vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
