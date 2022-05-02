@@ -18,14 +18,15 @@ export default function Home() {
         <h1 className={styles.navheader}>kripukhadka</h1>
       </nav>
       <main className={styles.main}>
-        {/* <Image
-          src={imageC}
-          width={399}
+        <Image
+          src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1651489023/imageC_cpuqkl.jpg"
+          width={419}
           height={374}
           placeholder="blur"
+          blurDataURL="LH97Rt%e9tkC~ox@E2flt7j@RkWC"
           className={styles.demoimage}
           alt="main image"
-        ></Image> */}
+        ></Image>
         <h1 className={styles.title}>Namaste, 👋 I&apos;m Kripu Khadka!</h1>
         <p className={styles.description}>
           I am a Data Analayst at{" "}
