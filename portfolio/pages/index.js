@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import imageC from '../images/imageC.jpg'
+import imageC from './imageC.jpg'
 import Footer from '../components/Footer';
 import bud from '../images/bud.avif';
 
