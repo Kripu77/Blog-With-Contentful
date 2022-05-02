@@ -30,7 +30,10 @@ const Footer = () => {
           <a href="mailto:kripu.12345@gmail.com"> Email</a>
         </p>
       </div>
-      <span className={styles.logo}> Powered by Next.Js</span>
+      <span className={styles.logo}>
+        {" "}
+        “You always pass failure on the way to success.”
+      </span>
     </footer>
   );
 }
