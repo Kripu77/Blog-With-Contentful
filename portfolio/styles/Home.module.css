@@ -169,7 +169,7 @@ font-family: 'PT Sans Narrow', sans-serif;
  
   .description{
   
-    max-width: 400px;
+    max-width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -183,6 +183,7 @@ font-family: 'PT Sans Narrow', sans-serif;
  }
   .navheader{
     text-align: center;
+    margin-left: 0 !important;
   }
   .demoimage{
    text-align: center;
