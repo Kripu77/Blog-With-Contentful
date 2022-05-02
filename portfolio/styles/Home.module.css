@@ -1,5 +1,5 @@
 .container {
-  padding: 0 0;
+
   margin-top: -2rem;
 }
 
@@ -149,7 +149,8 @@ padding: 0  0.4rem 0.1rem 0.1rem;
 }
 .navheader{
   font-size: 1.5rem;
-  padding: 1rem 1rem 0 1rem;
+  margin-left: 2rem;
+  padding: 1rem 0rem 0rem 1rem;
   font-family: 'Bebas Neue', cursive;
 font-family: 'Inconsolata', monospace;
 font-family: 'PT Sans Narrow', sans-serif;
@@ -162,23 +163,37 @@ font-family: 'PT Sans Narrow', sans-serif;
     width: 100%;
     flex-direction: column;
   }
-  .main{
-    text-align: center;
+  .title{
+    font-size: 2.3rem;
   }
+ 
   .description{
-    font-size: 3.2rem;
+  
     max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     line-height: 2.5rem;
+    text-align: center;
+    
    
   }
-  .description{
-    max-width: 500px;
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
+ .card{
+   text-align: center;
+ }
   .navheader{
     text-align: center;
   }
   .demoimage{
    text-align: center;
+  }
+
+  .socialcard{
+    max-width: 60vw;
+   display: inline-block;
+   line-height: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1rem !important;
   }
 }
