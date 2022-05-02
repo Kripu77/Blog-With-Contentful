@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Hi 👋 I&apos;m Kripu Khadka</title>
+        <title>Hi 👋 I&apos;m Kripu Khadka </title>
         <meta name="description" content="Kripu Khadka" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
