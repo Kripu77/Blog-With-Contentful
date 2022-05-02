@@ -1,41 +1,17 @@
-import Head from 'next/head'
+
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
+import Nav from '../components/Nav';
 
 
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Hi 👋 I&apos;m Kripu Khadka </title>
-        <meta name="description" content="Kripu Khadka" />
-        <meta
-          name="description"
-          content="G'day, I am Kripu Khadka a techie who is focused on perceiving modern world through technology."
-        />
-        <meta name="robots" content="max-image-preview:large" />
-        <link rel="canonical" href="https://kripukhadka.com" />
-        <meta property="og:locale" content="en_US" />
-        <meta
-          property="og:site_name"
-          content="Kripu Khadka - Master Data Analyst"
-        />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Kripu Khadka " />
-        <meta
-          property="og:description"
-          content="
-   G'day, I am Kripu Khadka a techie who is focused on perceiving modern world through technology. Let's get connected."
-        />
-        <meta property="og:url" content="https://kripukhadka.com/"></meta>
-
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <nav className={styles.navbar}>
-        <h1 className={styles.navheader}>kripukhadka</h1>
-      </nav>
+      <SEO/>
+     <Nav/>
       <main className={styles.main}>
         <Image
           src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1651489023/imageC_cpuqkl.jpg"
