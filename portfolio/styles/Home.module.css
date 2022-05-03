@@ -24,7 +24,9 @@
   align-items: center;
    
 }
-
+.demoimage{
+  border-radius: 80%;
+}
 .socialcard{
   display: flex;
   
