@@ -1,6 +1,11 @@
 
 import styles from '../styles/Home.module.css';
-
+import {
+  AiFillLinkedin,
+  AiFillInstagram,
+  AiFillGithub,
+  AiOutlineMail,
+} from "react-icons/Ai";
 
 
 const Footer = () => {
@@ -13,21 +18,21 @@ const Footer = () => {
           {" "}
           <a href="https://www.linkedin.com/in/kripu-khadka-3594a7185/">
             {" "}
-            Linkedin{" "}
+            <AiFillLinkedin/>
           </a>
         </p>
         <p>
           {" "}
-          <a href="https://www.instagram.com/kripu77/">Instagram</a>
+          <a href="https://www.instagram.com/kripu77/"><AiFillInstagram/></a>
         </p>
         <p>
           <a href="https://github.com/Kripu77" alt="GitHub link">
             {" "}
-            Github
+           <AiFillGithub/>
           </a>
         </p>
         <p>
-          <a href="mailto:kripu.12345@gmail.com"> Email</a>
+          <a href="mailto:kripu.12345@gmail.com"> <AiOutlineMail/></a>
         </p>
       </div>
       <span className={styles.logo}>
