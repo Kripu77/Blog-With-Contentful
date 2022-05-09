@@ -2,7 +2,7 @@
 
 const blogs = () => {
   return (
-    <div>blogs</div>
+    <div>blogs here</div>
   )
 }
 
