@@ -5,7 +5,7 @@
 
 .main {
   min-height: 100vh;
-  margin-top: 4rem;
+  margin-top: 6rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -142,7 +142,7 @@ padding: 1rem;
   justify-content: space-between;
   flex: 1;
 margin: 0;
-padding:  0.1rem 4rem;
+padding:  0.1rem 3rem;
  text-align: left;
  position: sticky;
  top:0;
@@ -153,14 +153,12 @@ padding:  0.1rem 4rem;
     font-family: 'Bebas Neue', cursive;
 font-family: 'Inconsolata', monospace;
 font-family: 'PT Sans Narrow', sans-serif;
+ cursor: pointer;
 
  
 }
 
-.navlink{
-  cursor: pointer;
 
-}
 .navlink:hover{
   text-decoration: underline;
 }
