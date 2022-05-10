@@ -10,6 +10,7 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "ityped": "^1.0.3",
     "next": "12.1.5",
     "react": "18.1.0",

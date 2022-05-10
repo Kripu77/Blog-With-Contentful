@@ -1,10 +1,10 @@
 import styles from "../styles/Home.module.css";
 import {
   AiFillLinkedin,
-  AiFillInstagram,
-  AiFillGithub,
-  AiOutlineMail,
-} from "react-icons/Ai";
+  // AiFillInstagram,
+  // AiFillGithub,
+  // AiOutlineMail,
+} from "@react-icons/all-files/Ai/AiFillLinkedin";
 
 const Footer = () => {
   return (
@@ -22,19 +22,19 @@ const Footer = () => {
         <p>
           {" "}
           <a href="https://www.instagram.com/kripu77/">
-            <AiFillInstagram />
+            {/* <AiFillInstagram /> */}
           </a>
         </p>
         <p>
           <a href="https://github.com/Kripu77" alt="GitHub link">
             {" "}
-            <AiFillGithub />
+            {/* <AiFillGithub /> */}
           </a>
         </p>
         <p>
           <a href="mailto:kripu.12345@gmail.com">
             {" "}
-            <AiOutlineMail />
+            {/* <AiOutlineMail /> */}
           </a>
         </p>
       </div>
