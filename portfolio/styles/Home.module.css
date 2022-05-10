@@ -138,12 +138,16 @@ padding: 1rem;
 
 
 .navbar{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
 margin: 0;
-padding:  0.1rem 2rem;
+padding:  0.1rem 4rem;
  text-align: left;
  position: sticky;
  top:0;
  z-index: 10;
+ font-size: 1.2rem;
  background-color:white;
    border-bottom: 1px solid #eaeaea;
     font-family: 'Bebas Neue', cursive;
@@ -152,6 +156,15 @@ font-family: 'PT Sans Narrow', sans-serif;
 
  
 }
+
+.navlink{
+  cursor: pointer;
+
+}
+.navlink:hover{
+  text-decoration: underline;
+}
+
 
 @media (max-width: 600px) {
   .grid {
@@ -178,9 +191,14 @@ font-family: 'PT Sans Narrow', sans-serif;
    text-align: center;
  }
   .navbar{
+    display: block;
     text-align: center;
     margin-left: 0 !important;
   }
+   .navlink{
+  display: none;
+}
+
   .demoimage{
    text-align: center;
   }
@@ -194,5 +212,5 @@ font-family: 'PT Sans Narrow', sans-serif;
    text-align: center;
     padding: 0.1rem !important;
   }
-  
+ 
 }
