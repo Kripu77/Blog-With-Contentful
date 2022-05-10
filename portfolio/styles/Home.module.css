@@ -113,7 +113,7 @@ padding: 1rem;
 .card:focus,
 .card:active {
  
-  border-color: #0070f3;
+  border-color: #f34100;
 }
 
 .card h2 {
