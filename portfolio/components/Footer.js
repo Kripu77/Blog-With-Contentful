@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.socialcard}>
         <p>
           {" "}
-          <a href="https://www.linkedin.com/in/kripu-khadka-3594a7185/">
+          <a href="https://www.linkedin.com/in/kripu-khadka-3594a7185/" alt="LinkedIn link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -24,7 +24,7 @@ const Footer = () => {
         </p>
         <p>
           {" "}
-          <a href="https://www.instagram.com/kripu77/">
+          <a href="https://www.instagram.com/kripu77/" alt="IG link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -53,7 +53,7 @@ const Footer = () => {
           </a>
         </p>
         <p>
-          <a href="mailto:kripu.12345@gmail.com">
+          <a href="mailto:kripu.12345@gmail.com" alt="Email ">
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"

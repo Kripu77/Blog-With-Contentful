@@ -33,6 +33,7 @@
   padding: 2rem;
   font-weight: 700;
 }
+
 .footer a {
   display: flex;
   justify-content: center;
@@ -193,9 +194,11 @@ font-family: 'PT Sans Narrow', sans-serif;
   .socialcard{
     max-width: 60vw;
    display: flex;
+   
    justify-content: center;
    line-height: 0.1rem;
    text-align: center;
     padding: 0.1rem !important;
   }
+  
 }
