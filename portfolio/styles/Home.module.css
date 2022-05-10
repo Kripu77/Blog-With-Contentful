@@ -192,10 +192,10 @@ font-family: 'PT Sans Narrow', sans-serif;
 
   .socialcard{
     max-width: 60vw;
-   display: inline-block;
+   display: flex;
+   justify-content: center;
    line-height: 0.1rem;
-    margin-left: auto;
-    margin-right: auto;
+   text-align: center;
     padding: 0.1rem !important;
   }
 }
