@@ -9,7 +9,10 @@ const Footer = () => {
       <div className={styles.socialcard}>
         <p>
           {" "}
-          <a href="https://www.linkedin.com/in/kripu-khadka-3594a7185/" alt="LinkedIn link">
+          <a
+            href="https://www.linkedin.com/in/kripu-khadka-3594a7185/"
+            alt="LinkedIn link"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -71,7 +74,7 @@ const Footer = () => {
       </div>
       <span className={styles.logo}>
         {" "}
-        “You always pass failure on the way to success💯”
+        “Embrace the glorious mess that you are.💯”
       </span>
     </footer>
   );
