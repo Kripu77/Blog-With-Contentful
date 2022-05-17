@@ -74,7 +74,7 @@ const Footer = () => {
       </div>
       <span className={styles.logo}>
         {" "}
-        “Embrace the glorious mess that you are.💯”
+        “Live, Laugh, Connect, and Create💯”
       </span>
     </footer>
   );
