@@ -173,6 +173,9 @@ font-family: 'PT Sans Narrow', sans-serif;
 
 
 @media (max-width: 700px) {
+  .containe{
+    font-size: 1rem;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
