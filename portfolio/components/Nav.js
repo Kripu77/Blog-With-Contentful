@@ -13,9 +13,12 @@ const Nav = () => {
       </section>
 
       <section className={styles.navlink}>
-        {/* <Link href="./blogs">
-          <h1> Blogs</h1>
-        </Link> */}
+        <Link href="./blogs">
+          <h1> blogs</h1>
+        </Link>
+        <Link href="./">
+          <h1> home</h1>
+        </Link>
       </section>
     </nav>
   );

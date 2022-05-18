@@ -11,7 +11,7 @@ import { mainImage, bodyImage } from '../images/blurData';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <SEO />
+      <SEO title="Hi 👋 I'm Kripu Khadka " />
       <Nav />
       <main className={styles.main}>
         <Image
@@ -31,9 +31,9 @@ export default function Home() {
             alt="Link to HJ's official site"
             className={styles.titlea}
           >
-            Hungry Jack&apos;s® Pty Ltd
+            Hungry Jack&apos;s® Pty Ltd.
           </a>{" "}
-          and I love working with JavaScript❤️.
+         
         </p>
         <div className={styles.grid}>
           <div className={styles.card}>

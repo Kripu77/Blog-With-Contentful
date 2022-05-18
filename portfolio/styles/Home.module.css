@@ -74,11 +74,17 @@
   max-width: 90vw;
 }
 
+.blogTitle{
+ text-align: center; 
+ 
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
+  
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -153,8 +159,15 @@ font-family: 'PT Sans Narrow', sans-serif;
  
 }
 
+.navlink{
+  display: flex;
+  
+}
+.navlink h1{
+  padding-left: 2rem;
+}
 
-.navlink:hover{
+.navlink h1:hover{
   text-decoration: underline;
 }
 

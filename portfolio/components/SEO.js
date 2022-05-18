@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-const SEO = () => {
+const SEO = ({title}) => {
   return (
     <Head>
-      <title>Hi 👋 I&apos;m Kripu Khadka </title>
+      <title>{title}</title>
       <meta name="description" content="Kripu Khadka" />
       <meta
         name="description"
