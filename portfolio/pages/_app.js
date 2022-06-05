@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Script from 'next/script'
 
-
+// analytics added
 function MyApp({ Component, pageProps }) {
 
  return (
