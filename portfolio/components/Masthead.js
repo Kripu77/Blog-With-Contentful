@@ -21,8 +21,9 @@ const Masthead = () => {
           alt="Link to HJ's official site"
           className={styles.titlea}
         >
-          Hungry Jack&apos;s® Pty Ltd.
+          Hungry Jack&apos;s® Pty Ltd,
         </a>{" "}
+        and I love bulding things with JavaScript.
       </p>
       <div className={styles.grid}>
         <div className={styles.card}>
@@ -56,7 +57,7 @@ const Masthead = () => {
         </div>
         <div>
           <Image
-            src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1651492379/undraw_Programming_re_kg9v_r1ixg4.png"
+            src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1656361840/undraw_Developer_activity_re_39tg_myf4u5.png"
             placeholder="blur"
             blurDataURL={bodyImage}
             width={458}
