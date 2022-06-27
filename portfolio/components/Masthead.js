@@ -13,7 +13,9 @@ const Masthead = () => {
         className={styles.demoimage}
         alt="main image"
       ></Image>
-      <h1 className={styles.title}>Hi, 👋 I&apos;m Kripu Khadka!</h1>
+      <h1 className={styles.title}>
+        Hi,<span className={styles.handmove}>👋</span> I&apos;m Kripu Khadka!
+      </h1>
       <p className={styles.description}>
         I am a Data Analayst at{" "}
         <a
