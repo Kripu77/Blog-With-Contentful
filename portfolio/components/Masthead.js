@@ -25,7 +25,7 @@ const Masthead = () => {
         >
           Hungry Jack&apos;s® Pty Ltd,
         </a>{" "}
-        and I love bulding things with JavaScript.
+        and I am passionate about building stuff with JavaScript.
       </p>
       <div className={styles.grid}>
         <div className={styles.card}>
