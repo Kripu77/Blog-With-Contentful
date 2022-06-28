@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import Nav from '../components/Nav';
 import Masthead from '../components/Masthead';
+import Recentblogs from '../components/Recentblogs';
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       <SEO title="Hi 👋 I'm Kripu Khadka " />
       <Nav />
       <Masthead />
+      {/* <Recentblogs/> */}
       <Footer />
     </div>
   );

@@ -1,8 +1,5 @@
-
-
 .main {
-  min-height: 100vh;
-  margin-top: 4rem;
+   margin-top: 4rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -15,19 +12,24 @@
   flex-direction: column;
   flex: 1;
   margin-top: 4rem;
-  padding:  1.5rem 0 1.5rem 0 ;
+  padding: 1.5rem 0 1.5rem 0;
 
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-   
+
+ 
+
+
+
 }
 
-.socialcard{
+.socialcard {
   display: flex;
-  
+
 }
-.socialcard p{
+
+.socialcard p {
   padding: 2rem;
   font-weight: 700;
 }
@@ -37,22 +39,24 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
- 
+
 }
 
-.footer img{
+.footer img {
   padding-top: 40px;
 }
 
-.main a, .footer a {
+.main a,
+.footer a {
   color: #6c6c63;
   text-decoration: underline;
-  
+
 }
 
 .main a:hover,
 .main a:focus,
-.main a:active, .footer a:hover {
+.main a:active,
+.footer a:hover {
   text-decoration: none;
 }
 
@@ -62,8 +66,7 @@
   font-size: 3rem;
 }
 
-.title
- {
+.title {
   text-align: center;
   margin-top: 1rem;
 }
@@ -76,9 +79,11 @@
   max-width: 90vw;
 }
 
-.blogTitle{
- text-align: center; 
- 
+
+.blogTitle {
+  text-align: center;
+  font-size: 3rem;
+
 }
 
 .code {
@@ -86,7 +91,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  
+
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -96,7 +101,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-padding: 1rem;
+  padding: 1rem;
   max-width: 1000px;
 }
 
@@ -115,9 +120,9 @@ padding: 1rem;
 .card:hover,
 .card:focus,
 .card:active {
- 
+
   border-color: #00f35d;
-   
+
 }
 
 .card h2 {
@@ -129,7 +134,7 @@ padding: 1rem;
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .logo {
@@ -138,89 +143,136 @@ padding: 1rem;
   margin-bottom: 2rem;
   font-size: 1.1rem;
 
- 
+
 }
 
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   flex: 1;
-margin: 0;
-padding:  0.1rem 3rem;
- text-align: left;
- position: sticky;
- top:0;
- z-index: 10;
- font-size: 1.2rem;
- background-color:white;
-   border-bottom: 1px solid #eaeaea;
-    font-family: 'Bebas Neue', cursive;
-font-family: 'Inconsolata', monospace;
-font-family: 'PT Sans Narrow', sans-serif;
- cursor: pointer;
+  margin: 0;
+  padding: 0.1rem 3rem;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-size: 1.2rem;
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'PT Sans Narrow', sans-serif;
+  cursor: pointer;
 
- 
+
 }
 
-.navlink{
+.navlink {
   display: flex;
-  
+
 }
-.navlink h1{
+
+.navlink h1 {
   padding-left: 2rem;
 }
 
-.navlink h1:hover, .demoimage:hover{
+.navlink h1:hover,
+.demoimage:hover {
   text-decoration: underline;
 
 }
 
-.socialcard svg:hover, .demoimage:hover{
+.socialcard svg:hover,
+.demoimage:hover {
   transform: scale(1.5);
   transition: 0.2s all ease-in-out;
-  color:black ;
+  color: black;
 }
 
 
-.demoimage:hover{
+.demoimage:hover {
   transform: scale(1.1);
   transition: 1.9s all ease-out;
 
 }
 
-.handmove{
+.handmove {
   animation: mymove 2.1s 0.6s infinite;
   transform-origin: 75% 75%;
   display: inline-block;
 }
+
 @keyframes mymove {
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(16deg);
   }
+
   20% {
     transform: rotate(-6deg);
   }
+
   30% {
     transform: rotate(16deg);
   }
+
   40% {
     transform: rotate(-4deg);
   }
+
   50% {
     transform: rotate(16deg);
   }
+
   60% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
 }
 
+.blogPanel{
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.blogPanel h1{
+  font-size: 2rem;
+
+}
+
+.blogPanel p{
+  text-decoration:underline;
+
+   color: #6c6c63;
+  
+}
+
+.blogPanel p:hover{
+  text-decoration: none;
+ color: #000000;
+ transition: 0.5s;
+
+
+}
+
+.blogContainer{
+  text-align: center;
+  font-size: 1.4rem;
+  /* remove below once data added */
+  margin-bottom: 5rem;
+  margin-top: -4rem;
+}
 
 @media (max-width: 700px) {
 
@@ -228,49 +280,53 @@ font-family: 'PT Sans Narrow', sans-serif;
     width: 100%;
     flex-direction: column;
   }
-  .title{
+
+  .title {
     font-size: 2.3rem;
     max-width: 80vw;
   }
- 
-  .description{
-  
+
+  .description {
+
     max-width: 70vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
-     line-height: 2.5rem;
+    line-height: 2.5rem;
     text-align: center;
-    
-   
+
+
   }
- .card{
-   text-align: center;
- }
-  .navbar{
+
+  .card {
+    text-align: center;
+  }
+
+  .navbar {
     display: block;
     text-align: center;
     margin-left: 0 !important;
   }
-   .navlink{
-  display: none;
-}
 
-  .demoimage{
-   text-align: center;
-   
+  .navlink {
+    display: none;
   }
 
-  
+  .demoimage {
+    text-align: center;
 
-  .socialcard{
+  }
+
+
+
+  .socialcard {
     max-width: 60vw;
-   display: flex;
-   
-   justify-content: center;
-   line-height: 0.1rem;
-   text-align: center;
+    display: flex;
+
+    justify-content: center;
+    line-height: 0.1rem;
+    text-align: center;
     padding: 0.1rem !important;
   }
- 
+
 }
