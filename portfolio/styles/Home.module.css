@@ -122,6 +122,9 @@
 .card:active {
 
   border-color: #00f35d;
+  transform: scale(1.1);
+  z-index: 10;
+  transition: 1.1s;
 
 }
 
@@ -193,7 +196,7 @@
 
 .demoimage:hover {
   transform: scale(1.1);
-  transition: 1.9s all ease-out;
+  transition: all 1.1s ease-in-out;
 
 }
 
@@ -261,7 +264,7 @@
 .blogPanel p:hover{
   text-decoration: none;
  color: #000000;
- transition: 0.5s;
+ transition: all 0.5s ease-in-out;
 
 
 }

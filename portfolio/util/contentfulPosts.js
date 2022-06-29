@@ -1,15 +1,30 @@
-const space = process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID;
-const accessToken = process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN;
 
-const client = require("contentful").createClient({
-  space: space,
-  accessToken: accessToken,
-});
+let spaceID = "s59oscfk00b4";
+let accessT = "VcL6-995jJ8lnJULQ_S27cDHMULZDAVExLHgpNza7Mg";
 
-export async function fetchEntries() {
-  const entries = await client.getEntries();
-  if (entries.items) return entries.items;
-  console.log(`Error getting Entries for ${contentType.name}.`);
+const {createClient} = require('contentful');
+
+let options = {
+  space: spaceID, 
+  accessToken: accessT
 }
 
-export default { fetchEntries };
+const client = createClient(options)
+
+
+async function fetchEntries (){
+
+ const data = await client.getEntries()
+const items = data.items;
+const allItems = items.map((item)=>{
+
+  return item.fields
+
+})
+
+return allItems
+
+}
+
+
+export default fetchEntries;

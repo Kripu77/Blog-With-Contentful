@@ -65,6 +65,7 @@ const Masthead = () => {
             width={458}
             height={388}
             alt="body image undraw"
+            className={styles.demoimage}
           ></Image>
         </div>
       </div>

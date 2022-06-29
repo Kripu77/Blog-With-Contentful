@@ -1,11 +1,12 @@
-import Nav from "../components/Nav"
-import SEO from "../components/SEO";
-import styles from '../styles/Home.module.css'
+import Nav from "../../components/Nav";
+import SEO from "../../components/SEO";
+import styles from "../../styles/Home.module.css";
 import Image from "next/image";
-import { bodyImage } from "../images/blurData";
-import Footer from "../components/Footer";
+import { bodyImage } from "../../images/blurData";
+import Footer from "../../components/Footer";
+import fetchEntries from "../../util/contentfulPosts";
 
-const blogs = () => {
+const blogs = ({ posts }) => {
   return (
     <main>
       <Nav />
@@ -24,13 +25,26 @@ const blogs = () => {
             width={658}
             height={388}
             alt="body image undraw"
+            className={styles.demoimage}
           ></Image>
           <p>The content will be published soon....</p>
         </section>
-      </section>
+        
+        </section>
+      
       <Footer />
     </main>
   );
+};
+
+export async function getStaticProps() {
+  const posts = await fetchEntries();
+
+  return {
+    props: {
+      posts,
+    },
+  };
 }
 
-export default blogs
+export default blogs;
