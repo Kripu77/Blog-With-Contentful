@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 const NotFound = () => {
   return (
-    <main >
+    <main>
       <Nav />
       <section className={styles.notFoundContainer}>
         <h1 className={styles.ErrorPage}>
@@ -24,9 +24,12 @@ const NotFound = () => {
           alt="body image undraw"
           className={styles.demoimage}
         ></Image>
-        <p> Please check if you're trying to access a accessible route....</p>
+        <p>
+          {" "}
+          Please check if you&apos;re trying to access a accessible route....
+        </p>
       </section>
-      <Footer/>
+      <Footer />
     </main>
   );
 };
