@@ -82,7 +82,7 @@
 
 .blogTitle {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 
 }
 
@@ -186,6 +186,11 @@
 
 }
 
+.demoimage{
+  display: block;
+  margin: auto;
+}
+
 .socialcard svg:hover,
 .demoimage:hover {
   transform: scale(1.5);
@@ -241,42 +246,81 @@
 }
 
 .blogPanel{
-  text-align: center;
+  
   font-size: 1.2rem;
-  max-width: 50vw;
+  max-width: 90vw;
+display: block;
   margin-left: auto;
   margin-right: auto;
   
 
 }
-.blogPanel h1{
-  font-size: 2rem;
 
+.blogTitle{
+  font-size: 7rem;
+  text-align: justify;
 }
 
 .blogPanel p{
-  text-decoration:underline;
+
 
    color: #6c6c63;
   
 }
 
 .blogPanel p:hover{
-  text-decoration: none;
+
  color: #000000;
- transition: all 0.5s ease-in-out;
+
 
 
 }
 
 .blogContainer{
-  text-align: center;
-  font-size: 1.4rem;
+  text-align: justify;
+  font-size: 2rem;
   /* remove below once data added */
-  margin-bottom: 5rem;
-  margin-top: -4rem;
+  max-width: 85vw;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
 
+
+.blogContainer h3{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.blogContainer button{
+  border: none;
+  padding: 1.1rem;
+  font-size: 1.1rem;
+  width: 9rem;
+  background-color: transparent;
+
+ 
+}
+.blogContainer button a{
+   text-decoration: none;
+}
+.blogContainer button a:hover{
+   text-decoration: underline;
+   
+}
+/* 
+.BlogImageContainer{
+  text-align: center;
+ } */
+
+.notFoundContainer{
+
+  text-align: center;
+  font-size: 2rem;
+  margin: 8rem;
+  
+ 
+}
 @media (max-width: 700px) {
 
   .grid {
@@ -331,5 +375,26 @@
     text-align: center;
     padding: 0.1rem !important;
   }
+.blogTitle{
+  font-size: 4rem;
+  text-align: justify;
+}
+.blogContainer{
+  font-size: 1.2rem;
+}
+.blogContainer h3{
+  font-size: 1rem;
+
+}
+
+.notFoundContainer{
+  min-width: 80vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ErrorPage{
+  font-size: 2rem;
+}
 
 }

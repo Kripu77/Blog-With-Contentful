@@ -1,11 +1,10 @@
 
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import Nav from '../components/Nav';
 import Masthead from '../components/Masthead';
-import Recentblogs from '../components/Recentblogs';
+
 
 
 

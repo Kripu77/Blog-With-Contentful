@@ -15,16 +15,18 @@ const client = createClient(options)
 async function fetchEntries (){
 
  const data = await client.getEntries()
-const items = data.items;
-const allItems = items.map((item)=>{
+ const items = data.items;
+ const fields = items.map((singleField)=>{
+  return singleField.fields
 
-  return item.fields
+ })
 
-})
+ return fields
 
-return allItems
+
+
 
 }
 
 
-export default fetchEntries;
+ export default fetchEntries;
