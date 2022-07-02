@@ -1,6 +1,5 @@
 import Nav from "../../components/Nav";
 import SEO from "../../components/SEO";
-import styles from "../../styles/Home.module.css";
 import Footer from "../../components/Footer";
 import fetchEntries from "../../util/contentfulPosts";
 import RecentBlogs from "../../components/blogPage/RecentBlogs";

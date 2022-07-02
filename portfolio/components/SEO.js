@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const SEO = ({title}) => {
+const SEO = ({ title }) => {
   return (
     <Head>
       <title>{title}</title>
@@ -14,9 +14,9 @@ const SEO = ({title}) => {
       <meta property="og:locale" content="en_US" />
       <meta
         property="og:site_name"
-        content="Kripu Khadka - Master Data Analyst"
+        content="Kripu Khadka - Master Data Analyst  || Full Stack Engineer"
       />
-      <meta property="og:type" content="article" />
+      <meta property="og:type" content="article/blog" />
       <meta property="og:title" content="Kripu Khadka " />
       <meta
         property="og:description"
