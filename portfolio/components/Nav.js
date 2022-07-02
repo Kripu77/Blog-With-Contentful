@@ -65,9 +65,9 @@ const Nav = () => {
           <path
             d="M4 7H12M20 7H16M4 12H20M4 17H8M20 17H12"
             stroke="#2b3134"
-            stroke-width="1.7"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.7"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
