@@ -5,6 +5,8 @@ import SEO from '../components/SEO';
 import Nav from '../components/Nav';
 import Masthead from '../components/Masthead';
 
+import RecentBlogs from '../components/blogPage/RecentBlogs';
+
 
 
 
@@ -15,7 +17,6 @@ export default function Home() {
       <SEO title="Hi 👋 I'm Kripu Khadka " />
       <Nav />
       <Masthead />
-      {/* <Recentblogs/> */}
       <Footer />
     </div>
   );

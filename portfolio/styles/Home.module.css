@@ -160,6 +160,7 @@
 
 .navlink {
   display: flex;
+  
 }
 
 .navlink h1 {
@@ -173,6 +174,8 @@
 
 .innerLink {
   display: flex;
+  flex:1;
+  justify-content: space-between;
 }
 
 .navToggler {

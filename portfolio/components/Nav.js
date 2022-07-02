@@ -18,13 +18,14 @@ const Nav = () => {
       setIsOpen(false);
     }
 
-    if (isOpen) {
-      document.body.classList.add("navOpen");
+    if(width<700){
+      if (isOpen) {
+        document.body.classList.add("navOpen");
+      }
+      if (!isOpen) {
+        document.body.classList.remove("navOpen");
+      }
     }
-    if (!isOpen) {
-      document.body.classList.remove("navOpen");
-    }
-
     //clean up function
     return () => {
       window.removeEventListener("resize", checkWidth);
@@ -35,8 +36,8 @@ const Nav = () => {
     <nav className={styles.mainNav}>
       <main className={styles.navbar}>
         <section>
-          <Link href="/">
-            <h1 className={styles.navheader} onClick={() => setIsOpen(!isOpen)}>
+          <Link href="/" >
+            <h1 className={styles.navheader}  onClick={() => setIsOpen(false)}>
               kripukhadka ✨
             </h1>
           </Link>
