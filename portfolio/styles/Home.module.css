@@ -258,11 +258,6 @@
   text-align: justify;
 }
 
-.blogHeader {
-
-  text-decoration: underline;
-  text-decoration-color: #c6c6c2;
-}
 
 .blogHeader:hover {
   text-decoration-color: #252524;
@@ -279,7 +274,7 @@
 }
 
 .blogContainer {
-  text-align: justify;
+ 
   font-size: 2rem;
   /* remove below once data added */
   max-width: 85vw;
