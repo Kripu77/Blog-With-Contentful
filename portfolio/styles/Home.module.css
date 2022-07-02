@@ -134,12 +134,13 @@
   font-size: 1.1rem;
 }
 
-.mainNav{
+.mainNav {
   display: flex;
-   position: sticky;
+  position: sticky;
   top: 0;
   z-index: 10;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -147,7 +148,7 @@
   margin: 0;
   padding: 0.1rem 3rem;
   text-align: left;
- 
+
   font-size: 1.2rem;
   background-color: white;
   border-bottom: 1px solid #eaeaea;
@@ -170,19 +171,20 @@
   text-decoration: underline;
 }
 
-.innerLink{
+.innerLink {
   display: flex;
 }
 
-.navToggler{
+.navToggler {
   display: none;
   background: transparent;
   border: none;
-  
+
 
   color: black;
 }
-.navToggler svg{
+
+.navToggler svg {
   color: #2b3134;
 }
 
@@ -256,16 +258,18 @@
   text-align: justify;
 }
 
-.blogHeader{
+.blogHeader {
 
- text-decoration: underline;
- text-decoration-color: #c6c6c2;
+  text-decoration: underline;
+  text-decoration-color: #c6c6c2;
 }
-.blogHeader:hover{
-text-decoration-color: #252524;
-transition: all 0.5s;
+
+.blogHeader:hover {
+  text-decoration-color: #252524;
+  transition: all 0.5s;
 
 }
+
 .blogPanel p {
   color: #6c6c63;
 }
@@ -296,12 +300,15 @@ transition: all 0.5s;
   width: 9rem;
   background-color: transparent;
 }
+
 .blogContainer button a {
   text-decoration: none;
 }
+
 .blogContainer button a:hover {
   text-decoration: underline;
 }
+
 /* 
 .BlogImageContainer{
   text-align: center;
@@ -312,10 +319,12 @@ transition: all 0.5s;
   font-size: 2rem;
   margin: 8rem;
 }
+
 @media (max-width: 700px) {
-  .navOpen{
+  .navOpen {
     overflow-y: hidden;
   }
+
   .grid {
     width: 100%;
     flex-direction: column;
@@ -338,8 +347,9 @@ transition: all 0.5s;
   .card {
     text-align: center;
   }
-  .navheader{
-   text-align: center;
+
+  .navheader {
+    text-align: center;
   }
 
   .navbar {
@@ -350,13 +360,14 @@ transition: all 0.5s;
 
   .navlink {
     margin-left: -9000px;
-  
+
     max-height: 0px;
-   
-   
- 
+
+
+
   }
-  .navToggler{
+
+  .navToggler {
     display: block;
     position: fixed;
     right: 0;
@@ -364,29 +375,31 @@ transition: all 0.5s;
     z-index: 10;
   }
 
-  .navToggler:hover, .navToggler:active{
+  .navTogglerfocus {
     transform: rotate(90deg);
-    transition: all 0.5;
+    transition: all 1.4s ease-in-out;
   }
-  .navVisible{
+
+  .navVisible {
     position: absolute;
     max-width: 100vw;
     min-height: 100vh;
- background-color: white;
- right: 0;
- left: 0;
- text-align: center;
- font-size: 1.4rem;
- transition: all 1s;
- opacity: 95%;
+    background-color: white;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 1.4rem;
+    transition: all 1s;
+    opacity: 95%;
 
 
 
 
 
   }
-  .innerLink{
-  display: block;
+
+  .innerLink {
+    display: block;
   }
 
   .demoimage {
@@ -396,19 +409,21 @@ transition: all 0.5s;
   .socialcard {
     max-width: 60vw;
     display: flex;
-
     justify-content: center;
     line-height: 0.1rem;
     text-align: center;
     padding: 0.1rem !important;
   }
+
   .blogTitle {
     font-size: 4rem;
     text-align: justify;
   }
+
   .blogContainer {
     font-size: 1.2rem;
   }
+
   .blogContainer h3 {
     font-size: 1rem;
   }
