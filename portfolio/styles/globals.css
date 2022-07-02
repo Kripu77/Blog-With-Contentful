@@ -12,9 +12,15 @@ body {
     margin: auto;
     font-size: 0.8rem;
     overflow-x: hidden;
+    
    
 
 }
+
+.navOpen{
+  overflow-y: hidden;
+}
+
 
 a {
   color: inherit;

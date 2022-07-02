@@ -7,9 +7,9 @@ const BlogMastHead = () => {
   return (
     <section>
       <section className={styles.blogContainer}>
-        <h1 className={styles.blogTitle}> Blogs Posts</h1>
+        <h1 className={styles.blogTitle}> Blog Posts</h1>
 
-        <h3 className={styles.blogHeader}>
+        <h3 >
           {" "}
          Welcome to this side of the world, Here I try to convey some of my findings as I progress in my life. Hopefully my content can help you solve your problem for greater good.{" "}
         </h3>

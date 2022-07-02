@@ -1,9 +1,7 @@
 import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";
 import fetchEntries from "../../util/contentfulPosts";
-import styles from "../../styles/Home.module.css";
 import NotFound from "../404";
-import SEO from "../../components/SEO";
 import BlogBody from "../../components/blogPage/BlogBody";
 
 const singleBlog = ({ posts }) => {
