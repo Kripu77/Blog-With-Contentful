@@ -364,7 +364,7 @@
 
   .navToggler {
     display: block;
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 15px;
     z-index: 10;
@@ -372,7 +372,7 @@
 
   .navTogglerfocus {
     transform: rotate(90deg);
-    transition: all 1.4s ease-in-out;
+    transition: all 1s ease-in-out;
   }
 
   .navVisible {
