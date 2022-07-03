@@ -8,7 +8,7 @@ import styles from "../styles/Home.module.css";
 export const renderOptions = {
   renderNode: {
     [INLINES.EMBEDDED_ENTRY]: (node, children) => {
-      console.log(node, children);
+     
 
       // target the contentType of the EMBEDDED_ENTRY to display as you need
       if (node.data.target.sys.contentType.sys.id === "blogPost") {
@@ -24,7 +24,7 @@ export const renderOptions = {
       }
     },
     [MARKS.CODE]: (node, children) => {
-      console.log(node, children);
+    
 
       // target the contentType of the EMBEDDED_ENTRY to display
       if (node.data.target.sys.contentType.sys.id === "code") {
@@ -53,7 +53,7 @@ export const renderOptions = {
     },
 
     [BLOCKS.EMBEDDED_ASSET]: (node, children) => {
-      console.log(node, children);
+ 
 
       // render the EMBEDDED_ASSET
       return (

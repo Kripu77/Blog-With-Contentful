@@ -11,6 +11,7 @@ const singleBlog = ({ posts }) => {
     return <NotFound />;
   }
 
+
   return (
     <div>
       <Nav />
@@ -35,11 +36,15 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
+
+  let title = await fetchEntries();
+
+  let slugs = title.map((post)=>{
+    return {params: {title: post.slug}}
+  })
+ 
   return {
-    paths: [
-      { params: { title: "automate-with-webhooks" } },
-      { params: { title: "Smartsheet-Automation" } },
-    ],
+    paths: slugs,
     fallback: true,
   };
 }
