@@ -213,7 +213,7 @@
   transform-origin: 75% 75%;
   display: inline-block;
 }
-
+ 
 @keyframes mymove {
   0% {
     transform: rotate(0deg);
@@ -248,18 +248,13 @@
   }
 }
 
-.blogPanel {
-  font-size: 1.2rem;
-  max-width: 90vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .blogTitle {
-  font-size: 7rem;
+  font-size: 3rem;
   text-align: justify;
 }
+
 
 
 .blogHeader:hover {
@@ -268,26 +263,31 @@
 
 }
 
-.blogPanel p {
-  color: #6c6c63;
-}
-
-.blogPanel p:hover {
-  color: #000000;
-}
 
 .blogContainer {
  
-  font-size: 2rem;
+  font-size: 1.3rem;
   /* remove below once data added */
   max-width: 85vw;
 
   margin-left: auto;
   margin-right: auto;
+
+}
+
+.blogContainer a{
+  text-decoration: underline;
+  color: #6c6c63;
+
+}
+
+.blogContainer a:hover{
+  text-decoration: none;
+  color: rgb(73, 73, 75);
 }
 
 .blogContainer h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -314,9 +314,14 @@
 
 .notFoundContainer {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 8rem;
 }
+
+.demoCode {
+  font-family: "Fira Code", monospace;
+}
+
 
 @media (max-width: 700px) {
   .navOpen {

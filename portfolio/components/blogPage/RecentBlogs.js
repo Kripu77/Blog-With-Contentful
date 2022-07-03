@@ -6,12 +6,12 @@ const RecentBlogs = ({ posts }) => {
   return (
     <section>
       {posts.map((singlePost) => {
-        const { title, publishDate, tags, description, slug } = singlePost;
+        const { title, date, tags, description, slug } = singlePost;
 
         return (
-          <section className={styles.blogContainer} key={slug}>
+          <section className={styles.blogContainer} key={date}>
             <h1 className={styles.blogHeader}>{title}</h1>
-            <p>{publishDate}</p>
+            <h3>Date Published: {date}</h3>
             <h3>{description}</h3>
             <button>
               <Link href={`/blogs/${encodeURIComponent(slug)}`}>

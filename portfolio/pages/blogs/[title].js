@@ -5,7 +5,9 @@ import NotFound from "../404";
 import BlogBody from "../../components/blogPage/BlogBody";
 
 const singleBlog = ({ posts }) => {
-  if (!posts) {
+
+  //render not found page if no blog post is obtained via provided slug
+  if ( !posts || posts.length<1) {
     return <NotFound />;
   }
 
