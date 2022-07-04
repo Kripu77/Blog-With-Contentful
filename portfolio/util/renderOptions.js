@@ -58,7 +58,7 @@ export const renderOptions = {
       // render the EMBEDDED_ASSET
       return (
         <RenderImage
-          src={`https://${node.data.target.fields.file.url}`}
+          src={`https:${node.data.target.fields.file.url}`}
           alt={node.data.target.fields.description}
           placeholder="blur"
           blurDataURL={bodyImage}
