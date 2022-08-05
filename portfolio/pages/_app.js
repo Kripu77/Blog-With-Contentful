@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import "../styles/Home.module.css";
 import Script from 'next/script'
 
 // analytics added

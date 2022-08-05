@@ -2,6 +2,8 @@ import styles from "../styles/Home.module.css";
 import { mainImage, bodyImage } from "../images/blurData";
 import Image from "next/image";
 const Masthead = () => {
+ 
+ 
   return (
     <main className={styles.main}>
       <Image
@@ -59,11 +61,11 @@ const Masthead = () => {
         </div>
         <div>
           <Image
-            src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1656361840/undraw_Developer_activity_re_39tg_myf4u5.png"
+            src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1659705828/hackathon_transparent_ibssnp.webp"
             placeholder="blur"
             blurDataURL={bodyImage}
-            width={458}
-            height={388}
+            width={448}
+            height={308}
             alt="body image undraw"
             className={styles.demoimage}
           ></Image>
