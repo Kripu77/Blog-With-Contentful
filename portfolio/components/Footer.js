@@ -1,9 +1,22 @@
+import React from 'react'
 import styles from "../styles/Home.module.css";
-
+import { useInView } from "framer-motion";
 
 const Footer = () => {
+//ref 
+const ref = React.useRef(null);
+const isInView = useInView(ref, {once:true});
+
   return (
-    <footer className={styles.footer}>
+    <footer
+      ref={ref}
+      className={styles.footer}
+      style={{
+        transform: isInView ? "none" : "translateX(-100px)",
+        opacity: isInView ? 1 : 0,
+        transition: "all 2.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+      }}
+    >
       <h1 styles={styles.navheader}>&copy; Kripu Khadka ✨ </h1>
 
       <div className={styles.socialcard}>
@@ -72,10 +85,7 @@ const Footer = () => {
           </a>
         </p>
       </div>
-      <span className={styles.logo}>
-        {" "}
-        “Live, Laugh, Connect, and Create💯”
-      </span>
+      <span className={styles.logo}> “Live, Laugh, Connect, and Create💯”</span>
     </footer>
   );
 };

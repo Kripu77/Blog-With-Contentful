@@ -8,12 +8,12 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     height:100vh;
     color: #2b3134;
-    width: 100vw;
+ 
     margin: auto;
     font-size: 0.8rem;
-    overflow-x: hidden;
+
     
-   
+   scroll-behavior: smooth; 
 
 }
 
@@ -26,7 +26,7 @@ a {
   text-decoration: none;
 }
 p{
- color: rgb(51, 51, 51)
+ color:  rgb(51, 51, 51);
 }
 * {
   box-sizing: border-box;

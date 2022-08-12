@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +11,18 @@ const Nav = () => {
   const checkWidth = () => {
     setWidth(window.innerWidth);
   };
+
+  //nav varaints
+  const navVariant = {
+    hidden:{
+      opacity:0
+    }, 
+    visible:{
+      opacity:1, transition:{
+        duration:1
+      }
+    }
+  }
 
   useEffect(() => {
     window.addEventListener("resize", checkWidth);
@@ -34,7 +47,7 @@ const Nav = () => {
 
   return (
     <nav className={styles.mainNav}>
-      <main className={styles.navbar}>
+      <motion.main className={styles.navbar} variants={navVariant} initial="hidden" animate="visible">
         <section>
           <Link href="/">
             <h1 className={styles.navheader} onClick={() => setIsOpen(false)}>
@@ -53,7 +66,7 @@ const Nav = () => {
             </Link>
           </section>
         </section>
-      </main>
+      </motion.main>
 
       <button className={styles.navToggler} onClick={() => setIsOpen(!isOpen)}>
         <svg
