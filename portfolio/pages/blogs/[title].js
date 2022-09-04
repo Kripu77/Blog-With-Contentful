@@ -14,12 +14,12 @@ const singleBlog = ({ posts }) => {
 
   return (
     <div>
-      <Nav />
       <BlogBody singleBlog={posts} />
-      <Footer />
     </div>
   );
 };
+
+//ISR
 
 export async function getStaticProps(context) {
   const slug = context.params.title;
@@ -32,9 +32,11 @@ export async function getStaticProps(context) {
     props: {
       posts,
     },
+    revalidate:10
   };
 }
 
+//generate blog paths
 export async function getStaticPaths() {
 
   let title = await fetchEntries();

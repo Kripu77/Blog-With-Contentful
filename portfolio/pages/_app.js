@@ -1,12 +1,15 @@
 import '../styles/globals.css'
 import "../styles/Home.module.css";
 import Script from 'next/script'
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 // analytics added
 function MyApp({ Component, pageProps }) {
 
  return (
    <>
+   <Nav/>
      <Script id="analytics-script"
        strategy="lazyOnload"
        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -23,6 +26,7 @@ function MyApp({ Component, pageProps }) {
      </Script>
 
      <Component {...pageProps} />
+     <Footer/>
    </>
  );
 }

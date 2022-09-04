@@ -14,7 +14,7 @@ const RecentBlogs = ({ posts }) => {
      
     >
       {posts.map((singlePost) => {
-        const { title, date, tags, description, slug } = singlePost;
+        const { title, date, description, slug } = singlePost;
 
         return (
           <section

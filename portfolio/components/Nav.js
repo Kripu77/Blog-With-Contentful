@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
+import Fade from "react-reveal/Fade"
 import { motion } from "framer-motion";
 
 const Nav = () => {
@@ -47,45 +48,50 @@ const Nav = () => {
 
   return (
     <nav className={styles.mainNav}>
-      <motion.main className={styles.navbar} variants={navVariant} initial="hidden" animate="visible">
-        <section>
-          <Link href="/">
-            <h1 className={styles.navheader} onClick={() => setIsOpen(false)}>
-              kripukhadka ✨
-            </h1>
-          </Link>
-        </section>
-
-        <section className={isOpen ? styles.navVisible : styles.navlink}>
-          <section className={styles.innerLink}>
-            <Link href="/blogs" onClick={() => setIsOpen(!isOpen)}>
-              <h1> blogs</h1>
-            </Link>
-            <Link href="/" onClick={() => setIsOpen(!isOpen)}>
-              <h1> home</h1>
+      <Fade>
+        <main className={styles.navbar}>
+          <section>
+            <Link href="/">
+              <h1 className={styles.navheader} onClick={() => setIsOpen(false)}>
+                kripukhadka ✨
+              </h1>
             </Link>
           </section>
-        </section>
-      </motion.main>
 
-      <button className={styles.navToggler} onClick={() => setIsOpen(!isOpen)}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="30px"
-          height="30px"
-          viewBox="0 0 24 24"
-          fill="none"
-          className={isOpen ? styles.navTogglerfocus : ""}
+          <section className={isOpen ? styles.navVisible : styles.navlink}>
+            <section className={styles.innerLink}>
+              <Link href="/blogs" onClick={() => setIsOpen(!isOpen)}>
+                <h1> blogs</h1>
+              </Link>
+              <Link href="/" onClick={() => setIsOpen(!isOpen)}>
+                <h1> home</h1>
+              </Link>
+            </section>
+          </section>
+        </main>
+
+        <button
+          className={styles.navToggler}
+          onClick={() => setIsOpen(!isOpen)}
         >
-          <path
-            d="M4 7H12M20 7H16M4 12H20M4 17H8M20 17H12"
-            stroke="#2b3134"
-            strokeWidth="1.7"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30px"
+            height="30px"
+            viewBox="0 0 24 24"
+            fill="none"
+            className={isOpen ? styles.navTogglerfocus : ""}
+          >
+            <path
+              d="M4 7H12M20 7H16M4 12H20M4 17H8M20 17H12"
+              stroke="#2b3134"
+              strokeWidth="1.7"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </Fade>
     </nav>
   );
 };

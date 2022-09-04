@@ -8,11 +8,9 @@ import BlogMastHead from "../../components/blogPage/BlogMastHead";
 const blogs = ({ posts }) => {
   return (
     <main>
-      <Nav />
       <SEO title="Blogs" />
       <BlogMastHead />
       <RecentBlogs posts={posts} />
-      <Footer />
     </main>
   );
 };

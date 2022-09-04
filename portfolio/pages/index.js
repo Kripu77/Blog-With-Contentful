@@ -15,9 +15,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <SEO title="Hi 👋 I'm Kripu Khadka " />
-      <Nav />
+   
       <Masthead />
-      <Footer />
+     
     </div>
   );
 }
