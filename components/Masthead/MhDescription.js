@@ -13,17 +13,17 @@ const MhDescription = () => {
         </h1>
       </Zoom>
 
-      <Fade duration={1200}  bottom big >
+      <Fade duration={1200}  right big cascade >
         <p className={styles.description}>
-          I am a Data Analayst at{" "}
-          <a
+          I am a Software Engineer{" "}
+          {/* <a
             href="https://www.hungryjacks.com.au"
             alt="Link to HJ's official site"
             className={styles.titlea}
           >
             Hungry Jack&apos;s® Pty Ltd,
-          </a>{" "}
-          and I am passionate about building stuff with JavaScript.
+          </a>{" "} */}
+        centered in building platforms to solve problems with code.
         </p>
       </Fade>
     </section>

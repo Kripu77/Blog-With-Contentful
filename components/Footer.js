@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
         <span className={styles.logo}>
           {" "}
-          “Live, Laugh, Connect, and Create💯”
+          Copyright © 2022 Kripu Khadka
         </span>
       </footer>
     </Slide>
