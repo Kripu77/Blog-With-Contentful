@@ -33,6 +33,7 @@ const Nav = () => {
       window.removeEventListener("resize", checkWidth);
     };
   }, [width, isOpen]);
+  
 
   return (
     <main className={styles.navholder}>
@@ -52,11 +53,11 @@ const Nav = () => {
 
             <section className={isOpen ? styles.navVisible : styles.navlink}>
               <section className={styles.innerLink}>
-                <Link href="/blogs" onClick={() => setIsOpen(!isOpen)}>
-                  <h1> blogs</h1>
+                <Link href="/blogs" >
+                  <h1 onClick={() => setIsOpen(!isOpen)}> blogs</h1>
                 </Link>
-                <Link href="/" onClick={() => setIsOpen(!isOpen)}>
-                  <h1> home</h1>
+                <Link href="/" >
+                  <h1 onClick={() => setIsOpen(!isOpen)}> home</h1>
                 </Link>
               </section>
             </section>
