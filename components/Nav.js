@@ -20,7 +20,7 @@ const Nav = () => {
       document.body.classList.remove("navOpen");
     }
 
-    if (width < 700) {
+    if (width <= 700) {
       if (isOpen) {
         document.body.classList.add("navOpen");
       }
@@ -34,7 +34,7 @@ const Nav = () => {
     };
   }, [width, isOpen]);
   
-
+{console.log(isOpen)}
   return (
     <main className={styles.navholder}>
       <nav className={styles.mainNav}>
@@ -53,11 +53,11 @@ const Nav = () => {
 
             <section className={isOpen ? styles.navVisible : styles.navlink}>
               <section className={styles.innerLink}>
-                <Link href="/blogs" >
-                  <h1 onClick={() => setIsOpen(!isOpen)}> blogs</h1>
+                <Link href="/blogs"  >
+                  <h1 onClick={() => setIsOpen(false)}> blogs</h1>
                 </Link>
                 <Link href="/" >
-                  <h1 onClick={() => setIsOpen(!isOpen)}> home</h1>
+                  <h1 onClick={() => setIsOpen(false)}> home</h1>
                 </Link>
               </section>
             </section>
