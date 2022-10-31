@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../Footer";
-import BackToTop from "../Masthead/BackToTop";
+import BackToTop from "../BackToTop";
 import styles from "../../styles/Home.module.css"
 import Nav from "../Nav";
 

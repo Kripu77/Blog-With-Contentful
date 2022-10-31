@@ -342,9 +342,18 @@
 
 .backBtn{
   position: fixed;
-  bottom: 10;
-  right:0;
-  z-index:100
+  bottom:0;
+  right: 0;
+  padding: 10px;
+  z-index:100;
+  
+  font-size: 3.5rem;
+
+}
+
+.backBtn:hover{
+  transform: scale(1.2);
+  transition: all 0.4s;
 
 }
 
@@ -471,5 +480,10 @@
     margin-right: auto;
     margin-bottom: 7rem;
     font-size: 1.3rem;
+  }
+
+  .backBtn{
+    font-size: 3rem;
+    padding: 3px;
   }
 }

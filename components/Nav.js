@@ -33,8 +33,7 @@ const Nav = () => {
       window.removeEventListener("resize", checkWidth);
     };
   }, [width, isOpen]);
-  
-{console.log(isOpen)}
+
   return (
     <main className={styles.navholder}>
       <nav className={styles.mainNav}>
