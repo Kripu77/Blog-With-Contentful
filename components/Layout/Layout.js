@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import Nav from "../Nav";
 import Footer from "../Footer";
 import BackToTop from "../BackToTop";
 import styles from "../../styles/Home.module.css"
-import Nav from "../Nav";
+
 
 // layout component
 const Layout = ({ children }) => {

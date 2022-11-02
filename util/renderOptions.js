@@ -62,8 +62,8 @@ export const renderOptions = {
           alt={node.data.target.fields.description}
           placeholder="blur"
           blurDataURL={bodyImage}
-          width={758}
-          height={388}
+          width={658}
+          height={408}
           className={styles.demoimage}
         />
       );

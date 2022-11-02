@@ -39,7 +39,7 @@ const isInView = useInView(ref, {once:true})
               placeholder="blur"
               blurDataURL={bodyImage}
               width={558}
-              height={388}
+              height={428}
               alt="body image undraw"
               className={styles.demoimage}
             ></Image>
