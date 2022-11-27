@@ -27,10 +27,10 @@ const InfoCard = () => {
         <p>
           💻 Work @
           <a
-            href="https://www.hungryjacks.com.au"
-            alt="Link to HJ's official site"
+            href="https://www.goevie.com.au"
+            alt="Link to Evie's official site"
           >
-            Hungry Jack&apos;s® Pty Ltd
+            Evie Networks
           </a>
         </p>
         <p> 🌎 Fluent in English, and Nepali.</p>
