@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
         <span className={styles.logo}>
           {" "}
-          Copyright © 2022 Kripu Khadka
+          Copyright © {new Date().getFullYear()} Kripu Khadka
         </span>
       </footer>
     </Slide>
