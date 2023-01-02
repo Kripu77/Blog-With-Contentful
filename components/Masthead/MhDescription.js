@@ -16,13 +16,6 @@ const MhDescription = () => {
       <Fade duration={1200}  right big cascade >
         <p className={styles.description}>
           I am a Software Engineer{" "}
-          {/* <a
-            href="https://www.hungryjacks.com.au"
-            alt="Link to HJ's official site"
-            className={styles.titlea}
-          >
-            Hungry Jack&apos;s® Pty Ltd,
-          </a>{" "} */}
         centered in building platforms to solve problems with code.
         </p>
       </Fade>
