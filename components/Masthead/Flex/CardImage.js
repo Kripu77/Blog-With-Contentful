@@ -13,11 +13,11 @@ const CardImage = () => {
     <Fade right duration={2500}>
       <div>
         <Image
-          src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1659705828/hackathon_transparent_ibssnp.webp"
+          src="https://res.cloudinary.com/kripukhadka-com/image/upload/v1672618115/7f15458a-ba9f-46fd-8fb2-d52055afeadf_tmffjt.avif"
           placeholder="blur"
           blurDataURL={bodyImage}
-          width={448}
-          height={308}
+          width={288}
+          height={278}
           alt="body image undraw"
           className={styles.demoimage}
         ></Image>
