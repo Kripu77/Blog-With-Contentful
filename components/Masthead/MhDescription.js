@@ -15,8 +15,8 @@ const MhDescription = () => {
 
       <Fade duration={1200}  right big cascade >
         <p className={styles.description}>
-          I am a Software Engineer{" "}
-        centered in building platforms to solve problems with code.
+        I am a <strong> Software Engineer</strong> who specializes in designing and developing platforms to solve problems through code. <br/>
+       
         </p>
       </Fade>
     </section>
