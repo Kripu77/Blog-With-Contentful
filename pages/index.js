@@ -14,7 +14,7 @@ import RecentBlogs from '../components/blogPage/RecentBlogs';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <SEO title="Hi 👋 I'm Kripu Khadka " />
+      <SEO title="Hi 👋 I'm Kripu Khadka!" />
    
       <Masthead />
      
