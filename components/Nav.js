@@ -52,9 +52,9 @@ const Nav = () => {
 
             <section className={isOpen ? styles.navVisible : styles.navlink}>
               <section className={styles.innerLink}>
-                <Link href="/blogs"  >
-                  <h1 onClick={() => setIsOpen(false)}> blogs</h1>
-                </Link>
+//                 <Link href="/blogs"  >
+//                   <h1 onClick={() => setIsOpen(false)}> blogs</h1>
+//                 </Link>
                 <Link href="/" >
                   <h1 onClick={() => setIsOpen(false)}> home</h1>
                 </Link>
